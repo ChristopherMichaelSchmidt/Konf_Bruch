@@ -20,7 +20,8 @@ public class Bruch {
     public double toDecimal() {
         // TODO: Die Methode soll den Dezimalwert zum Bruch retournieren
         // Achtung: Ganzzahldivision!
-       return 0;
+        if(getDenominator() !=0) { return (double)getNumerator()/(double)getDenominator();}
+        return 0;
     }
 
     public String print() {
