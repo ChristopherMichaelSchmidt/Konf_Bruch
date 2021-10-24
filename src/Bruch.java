@@ -44,7 +44,7 @@ public class Bruch {
 
     public Bruch multiplicate(Bruch b2,  Bruch b3) {
         // TODO: Multiplizieren Sie den eigenen Bruch mit b2 und b3
-    Bruch b1 = new Bruch(getNumerator() * b2.getNumerator() * b3.getNumerator(), getDenominator()* b2.getNumerator()* b3.getNumerator());
+    Bruch b1 = new Bruch(getNumerator() * b2.getNumerator() * b3.getNumerator(), getDenominator()* b2.getDenominator()* b3.getDenominator());
         return b1;
     }
 }
